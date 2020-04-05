@@ -73,7 +73,7 @@
 			echo '</form>';
 		}
 		else{
-			echo '<form action="Job_Seeker_Register.php" type="POST"/>';
+			echo '<form action="Job_Seeker_Register.php" type="POST">';
 			echo '<input type="submit" value="Create Jobseeker profile"/>';
 			echo '</form>';
 			echo '<form action="" type="POST">';
