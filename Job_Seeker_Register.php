@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <!--
    | -Page for jobseekers looking to create a jobseeker profile
    | -Checks if user is logged in.
@@ -8,7 +8,8 @@
    | -Works much like Register.php except less error checking
    | -There will be a button that leads to this page
 -->
-<html>
+
+<html xmlns="http://ww.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <?php
 
 	session_start();
@@ -52,39 +53,39 @@
 		<div class="container">
 			<h1>Jobseeker Register</h1>
 			<p>Please fill in this form.</p>
-			<hr>
-				<br>
+			<hr/>
+				<br/>
 				
 				<label for="personalstatement"><b>Personal Statement</b></label>
-				<input type="text" name="personalstatement" required>
+				<input type="text" name="personalstatement" required="required"/>
 				
-				<br>
+				<br/>
 
 				<label for="education"><b>Education</b></label>
-				<input type="text" name="education" required>
+				<input type="text" name="education" required="required"/>
 				
 				
 				<label for="jobhistory"><b>JobHistory</b></label>
-				<input type="text" name="jobhistory">
+				<input type="text" name="jobhistory"/>
 				
 				<label for="skills"><b>Skills</b></label>
-				<input type="text" name="skills" required>
+				<input type="text" name="skills" required="required"/>
 				
-				<br>
+				<br/>
 				
 				<label for="experience"><b>Experience</b></label>
-				<input type="text" name="experience" required>
+				<input type="text" name="experience" required="required"/>
 				
-				<br>
+				<br/>
 
 				<label for="documents"><b>Upload documents</b></label>
-				<input type="file" name="documents">
+				<input type="file" name="documents"/>
 
-				<br>
+				<br/>
 
 				<label for="everemployee"><b>Old employee?</b></label>
-				<input type="checkbox" name="everemployee">
-			<hr>
+				<input type="checkbox" name="everemployee"/>
+			<hr/>
 
 			<button type="submit" class="registerbtn">Register</button>
 		</div>
