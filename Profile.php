@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR?xhtmll/DTD/xhtmll-strict.dtd">
 <!--
    | -Allows user to view their own profile
    | -Checks session variable for user id and pulls info from database based on id
@@ -9,11 +9,11 @@
 <?php
 	session_start();
 ?>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
+  <html xmlns="http://ww.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+   	 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<!-- This will be part of the main CSS file -->
-    <style>
+    	<style>
 
         .card {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -77,7 +77,7 @@
 		
 		echo '<body>
     <div class="card">
-        <img src="include/boss.jpg" alt="Iguardo" style="width:100%">
+        <img src="include/boss.jpg" alt="Iguardo" style="width:100%"/>
         <h1>Iguardo Valencia</h1>
         <p class="title">Procurement Category Specialist (New Energies), Shell</p>
         <p>Texas AM</p>
@@ -90,8 +90,8 @@
 
     <form action="upload.php" method="post" enctype="multipart/form-data">
         Select image to upload:
-        <input type="file" name="fileToUpload" id="fileToUpload">
-        <input type="submit" value="Upload Image" name="submit">
+        <input type="file" name="fileToUpload" id="fileToUpload"/>
+        <input type="submit" value="Upload Image" name="submit"/>
     </form>
     <p> **Upload doesn\'t work just yet. We\'ll have to add photo capability to the database.**</p>
 
