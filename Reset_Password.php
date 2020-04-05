@@ -1,12 +1,14 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR?xhtmll/DTD/xhtmll-strict.dtd">
+
 <!--
    | -Allows user to reset their password
 -->
 
-<html lang="en">
+
+<html xmlns="http://ww.w3.org/1999/xhtml" lang="en" xml:lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Change Password</title>
 </head>
 
@@ -84,14 +86,14 @@
         <form action="" method="post"> 
             <div class="form-group">
                 <label>New Password</label>
-                <input type="text" name="new_password" class="form-control" value="<?php echo $new_password; ?>">
+                <input type="text" name="new_password" class="form-control" value="<?php echo $new_password; ?>"/>
             </div>
             <div class="form-group">
                 <label>Confirm Password</label>
-                <input type="text" name="confirm_password" class="form-control">
+                <input type="text" name="confirm_password" class="form-control"/>
             </div>
             <div class="form-group">
-                <input type="submit" class="btn btn-primary" value="Submit">
+                <input type="submit" class="btn btn-primary" value="Submit"/>
                 <a class="btn btn-link" href="Index.php">Cancel</a>
             </div>
         </form>
