@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR?xhtmll/DTD/xhtmll-strict.dtd">
+
 <!--
    | -Login page
    | -Has some basic error handling
@@ -36,7 +37,7 @@
 		}
 	}
 ?>
-<html>
+  <html xmlns="http://ww.w3.org/1999/xhtml" lang="en" xml:lang="en">
    <head>
       <title>Login Page</title>
       
