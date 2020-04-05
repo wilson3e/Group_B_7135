@@ -1,5 +1,7 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR?xhtmll/DTD/xhtmll-strict.dtd">
+
+<html xmlns="http://ww.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
 <body>
 
 <h1>The input value attribute</h1>
