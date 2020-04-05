@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR?xhtmll/DTD/xhtmll-strict.dtd">
+
 <!--
    | -Page for new users looking to create a basic account
    | -Has some basic error checking (username taken, email address taken, password not matching password confirm)
@@ -51,12 +52,13 @@
 		}
 		else{
 			foreach($errors as $errorMsg){
-				echo $errorMsg."<br>";
+				echo $errorMsg."<br/>";
 			}
 		}
 	}
 ?>
-<html>
+
+<html xmlns="http://ww.w3.org/1999/xhtml" lang="en" xml:lang="en">
 	<form action="" method="POST">
 		<div class="container">
 			<h1>Register</h1>
@@ -65,33 +67,33 @@
 				<br>
 				
 				<label for="username"><b>Username</b></label>
-				<input type="text" placeholder="Enter username" name="username" required>
+				<input type="text" placeholder="Enter username" name="username" required="required" />
 				
-				<br>
+				<br/>
 
 				<label for="firstname"><b>First Name</b></label>
-				<input type="text" placeholder="Enter first name" name="firstname" required>
+				<input type="text" placeholder="Enter first name" name="firstname" required="required" />
 				
 				
 				<label for="middlename"><b>Middle Name</b></label>
-				<input type="text" placeholder="Enter middle name" name="middlename">
+				<input type="text" placeholder="Enter middle name" name="middlename"/>
 				
 				<label for="lastname"><b>Last Name</b></label>
-				<input type="text" placeholder="Enter last name" name="lastname" required>
+				<input type="text" placeholder="Enter last name" name="lastname" required="required" />
 				
-				<br>
+				<br/>
 				
 				<label for="email"><b>Email</b></label>
-				<input type="text" placeholder="Enter Email" name="email" required>
+				<input type="text" placeholder="Enter Email" name="email" required="required" />
 				
-				<br>
+				<br/>
 
 				<label for="psw"><b>Password</b></label>
-				<input type="password" placeholder="Enter Password" name="psw" required>
+				<input type="password" placeholder="Enter Password" name="psw" required="required" />
 
 				<label for="psw-repeat"><b>Repeat Password</b></label>
-				<input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-			<hr>
+				<input type="password" placeholder="Repeat Password" name="psw-repeat" required="required" />
+			<hr/>
 
 			<button type="submit" class="registerbtn">Register</button>
 		</div>
