@@ -38,25 +38,13 @@
 	}
 ?>
   <html xmlns="http://ww.w3.org/1999/xhtml" lang="en" xml:lang="en">
-   <head>
-      <title>Login Page</title>
-      
-      <style type = "text/css">
-         body {
-            font-family:Arial, Helvetica, sans-serif;
-            font-size:14px;
-         }
-         label {
-            font-weight:bold;
-            width:100px;
-            font-size:14px;
-         }
-         .box {
-            border:#666666 solid 1px;
-         }
-      </style>
-      
-   </head>
+ 	 <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <link href="https://fonts.googleapis.com/css?family=Work+Sans: 30%"  />
+            <link type="text/css" rel="stylesheet" href="style.css"/>
+      	    <title>Login Page</title>
+   	 </head>
    
    <body bgcolor = "#FFFFFF">
 	
@@ -68,7 +56,7 @@
                
                <form action = "" method = "post">
                   <label>Username  :</label><input type = "text" name = "username" class = "box"/><br /><br />
-                  <label>Password  :</label><input type = "password" name = "password" class = "box" /><br/><br />
+                  <label>Password  :</label><input type = "password" name = "password" class = "box"/><br/><br />
                   <input type = "submit" value = " Submit "/><br />
                </form>
                
