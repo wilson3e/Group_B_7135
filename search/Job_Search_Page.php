@@ -16,10 +16,10 @@
 <form action="/action_page.php">
 Search Criteria:<br>
   <label for="Jobname">JobName  :</label>
-  <input type="text" id="Jobname" name="Jobname"><br>
+  <input type="text" id="Jobname" name="Jobname"/><br/>
   
   <label for="Keyword1">Keyword1:</label>
-  <input type="text" id="Keyword1" name="Keyword1" value=><br>
+  <input type="text" id="Keyword1" name="Keyword1" value="value"/><br/>
   
   <label for="Jtype">JobType:</label>
   <select id="Jtype" name="jtype">
@@ -29,7 +29,7 @@ Search Criteria:<br>
     </select>
   </form>
 </div>
-<br></br>
+<br/>
 
 <div style="text-align:center;">
     <button>Clear</button>&nbsp &nbsp &nbsp
