@@ -59,12 +59,20 @@
 ?>
 
 <html xmlns="http://ww.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	  <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <link href="https://fonts.googleapis.com/css?family=Work+Sans: 30%"  />
+            <link type="text/css" rel="stylesheet" href="style.css"/>
+            <title>Registration Page</title>
+        </head>
+	
 	<form action="" method="POST">
 		<div class="container">
 			<h1>Register</h1>
 			<p>Please fill in this form to create an account.</p>
 			<hr>
-				<br>
+				<br/>
 				
 				<label for="username"><b>Username</b></label>
 				<input type="text" placeholder="Enter username" name="username" required="required" />
