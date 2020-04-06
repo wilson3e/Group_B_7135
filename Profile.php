@@ -10,58 +10,13 @@
 	session_start();
 ?>
   <html xmlns="http://ww.w3.org/1999/xhtml" lang="en" xml:lang="en">
-	<head>
-   	 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<!-- This will be part of the main CSS file -->
-    	<style>
-
-        .card {
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-            max-width: 300px;
-            margin: auto;
-            text-align: center;
-            position: absolute;
-            top: 80px;
-            left: 10px;
-        }
-
-        .title {
-            color: grey;
-            font-size: 18px;
-        }
-
-        button {
-            border: none;
-            outline: 0;
-            display: inline-block;
-            padding: 8px;
-            color: white;
-            background-color: #000;
-            text-align: center;
-            cursor: pointer;
-            width: 100%;
-            font-size: 18px;
-        }
-
-        a {
-            text-decoration: none;
-            font-size: 22px;
-            color: black;
-        }
-
-            button:hover, a:hover {
-                opacity: 0.7;
-            }
-
-        .info {
-            color: black;
-            position: absolute;
-            top: 80px;
-            left: 330px;
-        }
-    </style>
-
-</head>
+	  <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <link href="https://fonts.googleapis.com/css?family=Work+Sans: 30%"  />
+            <link type="text/css" rel="stylesheet" href="style.css"/>
+            <title>My profile</title>
+	   </head>
 <?php
 	include_once("include/Config.php");
 	include("include/Query.php");
