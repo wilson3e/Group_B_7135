@@ -11,6 +11,13 @@
 -->
 
 <html xmlns="http://ww.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	  <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <link href="https://fonts.googleapis.com/css?family=Work+Sans: 30%"  />
+            <link type="text/css" rel="stylesheet" href="style.css"/>
+            <title>Jobseeker Registration Page</title>
+        </head>
 <?php
 
 	session_start();
