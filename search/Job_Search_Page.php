@@ -9,20 +9,21 @@
             <title>Job Search Page</title>
         </head>
 <body>
+  <div id="jobserach">
+    <h1 style="color:white;">Job Search</h1>
 
-<h1>The input value attribute</h1>
-
-<div style="color:black; padding-top: 15px; border: 3px solid blue;">
+<div id="jobsearch_tab">
 <form action="/action_page.php">
-Search Criteria:<br>
-  <label for="Jobname">JobName  :</label>
-  <input type="text" id="Jobname" name="Jobname"/><br/>
-  
-  <label for="Keyword1">Keyword1:</label>
-  <input type="text" id="Keyword1" name="Keyword1" value="value"/><br/>
-  
-  <label for="Jtype">JobType:</label>
-  <select id="Jtype" name="jtype">
+
+  <label for="jname">Job title :</label>
+  <input type="text" id="txtbox" name="jname" /><br/>
+
+  <label for="keyword">Keywords :</label>
+  <input type="text" id="txtbox" name="keyword"/><br/>
+
+  <label for="jtype">Job type :</label>
+  <select id="txtbox" name="jtype">
+
       <option value="FullTime">Full-time</option>
       <option value="PartTime">Part-time</option>
       <option value="Other">Other</option>
@@ -30,12 +31,11 @@ Search Criteria:<br>
   </form>
 </div>
 <br/>
-
 <div style="text-align:center;">
     <button>Clear</button>&nbsp &nbsp &nbsp
     <button>Search</button>&nbsp
     <button>Back</button>
 </div>
-
+</div>
 </body>
 </html>
